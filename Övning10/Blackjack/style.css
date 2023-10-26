@@ -1,0 +1,28 @@
+
+.card-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: -30; }
+
+.card-container img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.btn-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    display: block;
+    border: 1px solid #000; 
+    margin: 5px; 
+    display: inline-block; 
+    width: 48%; 
+}

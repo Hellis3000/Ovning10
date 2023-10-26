@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7Rxnatzjc1M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container row">
+        
+            <div class="col-md-6">
+                <div id="card-display-house" class="text-center card-container">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="card-display-player" class="text-center card-container">
+
+                </div>
+            </div>
+        
+    </div>
+    <div>
+        <p id="houseScore">House Score: 0</p>
+        <p id="playerScore">Player Score: 0</p>
+    </div class="row mt-1">
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button id="draw" class="btn btn-primary">Hit</button>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col text-center">
+            <button id="stand" class="btn btn-secondary">Stand</button>
+        </div>
+    </div>
+    </div>
+
+    <script src="apiBlackJack.js"></script>
+</body>
+
+</html>
